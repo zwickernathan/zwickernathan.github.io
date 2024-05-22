@@ -1,0 +1,233 @@
+/* Add a black background color to the top navigation */
+body{
+  font-family: helvetica;
+  color: grey;
+}
+h1{
+  text-align: center;
+  color: grey;
+}
+h2{
+  color:rgb(255, 120, 190);
+}
+h5{
+  background-color: #48FF8F;
+  width: 50%;
+  margin: auto;
+}
+.topnav {
+    background-color:white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+    margin: 0px 30px 0px 0px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:rgb(255, 120, 190);
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo{
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .summary{
+    color: grey;
+    text-align: center;
+    padding-left: 320px;
+    padding-right: 320px;
+  }
+
+  .button {
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    background-color: rgb(255, 120, 190);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .help{
+    width: 100%;
+    margin: auto;
+  }
+  .help-blocks{
+    background-color:white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .need{
+    border-style: solid;
+    border-color: rgb(255, 120, 190);
+    border-radius: 10px;
+    border-width: 2px;
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 30px 0px 100px;
+  }
+  .can{ 
+    border-style: solid;
+    border-color: rgb(255, 120, 190);
+    border-radius: 10px;
+    border-width: 2px;
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 100px 0px 30px;
+  }
+  .location{ 
+    border-style: solid;
+    border-color: rgb(255, 120, 190);
+    border-radius: 10px;
+    border-width: 2px;
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 30px 0px 30px;
+  }
+
+  .viz{
+    width: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  .r1-image{
+    width: 300px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review1{
+    display: flex;
+    width: 80%;
+    justify-content: right;
+    padding: 100px 200px 10px 200px;
+  }
+
+  .r2-image{
+    width: 300px;
+    height: auto;
+    padding: 10px 10px 10px 0px;
+  }
+  .review2{
+    display: flex;
+    justify-content: right;
+    padding: 50px 200px 10px 100px;
+  }
+
+  .r3-image{
+    width: 400px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review3{
+    display: flex;
+    justify-content: center;
+    padding: 20px 200px 10px 200px;
+  }
+  
+  .r4-image{
+    width: 300px;
+    height: auto;
+    padding: 10px 100px;
+  }
+  .review4{
+    display: flex;
+    justify-content: right;
+    padding: 20px 300px 10px 100px;
+  }
+  
+  footer{
+    padding-left: 200px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: right;
+    background-color: rgba(255, 192, 203, 0.521);
+  }
+
+  .logo-footer-image{
+    width: 300px;
+    height: auto;
+    padding: 50px 50px 0px 500px;
+  }
+  .contact{    
+    padding-left: 200px;
+    padding-bottom: 20px;
+  }
+
+  .support{
+    width: 100%;
+    margin: auto;
+  }
+  .support-cards{
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    text-align: center;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 10px;
+    width: 20%;
+  }
+  .card h2{
+    padding: 10px;
+  }
+
+  .card p{
+    padding: 10px;
+  }
+  input{
+    height: 30px;
+    width: 200px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.425);
+    border-radius: 20px;
+    border-width: 2px;
+  }
+ 

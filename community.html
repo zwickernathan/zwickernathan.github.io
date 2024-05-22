@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>PinkLinks</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdHvUjnws-WhpSeeMOE821dd7CdynBLoM&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+        padding: 10px;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 40.7645319, lng: -73.9836623},
+          zoom: 14,
+        });
+      }
+    </script>
+</head>
+<body>
+    <header>
+        <br>
+        <nav>
+            <div class="topnav">
+                <a href="index.html">home</a>
+                <a class="active" href="community.html">community</a>
+                <a href="fundraise.html">fundraise</a>
+                <a href="about.html">read</a>
+                <a href="contact.html">contact</a>
+              </div>
+              <br>
+        </nav>
+    </header>
+    <img class="logo" src="assets/logo.png">
+              <br>
+    <div class="summary">
+        <h1>Pink Links Support Community.</h1>
+        <p>We believe that Community is Stronger than Cancer. We are a relentless ally for anyone who strives to manage the realities of this disruptive disease.
+            So no one faces cancer alone. </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="summary">
+        <h1>Support a Cause You Care About</h1>
+        <p>Make a Difference by becoming part of a passionate community of Pink Links supporters 
+            helping to ensure that no one has to face breast cancer alone.</p>
+        </div>
+            <div class="support">
+        <div class="support-cards">
+            <div class="card">
+                <h2>Become an Advocate</h2>
+                <p>Join Pink Links Network and have your voice 
+                    heard along side other voices of patients with cancer and their loved ones.</p>
+                <button class="button" >Join</button>
+                </div>
+            <div class="card">
+                <h2>Attend Events</h2>
+                <p>Participate with other breast cancer patients or survivors.</p>
+                <input type="text" placeholder="    Your Email address">
+                <br><br>
+                <button class="button" >Sign Up</button>
+            </div>
+            <div class="card">
+                <h2>Participate in Research</h2>
+                <p>Participate in research being conducted at the Pink Links Support Community
+                    to help us understand the disease better.</p>
+                    <button class="button" >Join</button>
+            </div>
+            <div class="card">
+                <h2>Explore Ways to Give</h2>
+                <p>There are many ways that 
+                    you can be involved in helping yourself and others impacted by breast cancer.
+                Be it money, stocks, cyptocurrency or even used equipments.</p>
+                <button class="button" >Explore</button>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <h1>Find a community nearby:</h1>
+    <div id="map"></div>
+    <br><br>
+    <div class="help">
+        <div class="help-blocks">
+            <div class="need">
+            <h1>Talk with an Expert</h1>
+            <p>We are here to help you by offering
+                free support and counselling for cancer patients or their 
+                loved ones by phone and online.
+            </p>
+            <button class="button" onclick="location.href = 'community.html';" type="button"><span>Read More</span></button>
+        </div>
+        <div class="location">
+            <h1>Visit a Location</h1>
+            <p>Whether you are a patient, loved one or caregiver, we offer a variety
+                of professional-led programs designed to assist you online and in-person.
+            </p>
+            <button class="button" onclick="location.href = 'community.html';" type="button"><span>Read More</span></button>
+        </div>
+        <div class="can">
+            <h1>Build Your Online Community</h1>
+            <p>PinkLinks easily connects cancer patients and caregivers with
+                friends and family online to reduce stress, anxiety and isolation.
+            </p>
+            <button class="button" onclick="location.href = 'community.html';" type="button"><span>Read More</span></button>
+        </div>
+        </div>
+    </div>
+    
+    <br>
+    
+    <br>
+    <br>
+    
+    <br>
+
+    <footer>
+        <div>
+            <h1 style="text-align: left; color: rgb(255, 120, 190);">Community is</h1>
+        <h1 style="text-align: left;">Stronger than Cancer.</h1>
+        <button class="button" >Donate</button>
+        </div>
+        <div>
+            <img src="assets/logo.png" class="logo-footer-image">
+        </div>
+        <br>
+        <br>
+    </footer>
+    <br>
+    <div class="contact">
+        <p>Contact us at: +1 (888) 33 11200 ** Email: contact@pinklinks.com</p>
+</body>
+</html>
